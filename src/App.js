@@ -21,7 +21,6 @@ function App() {
   }, [pillValue])
 
   const handleSearch = useCallback(() => {
-    console.log('hsh')
     if (querySearched.toLowerCase() === '') {
       setfiltereddata([])
       return;
